@@ -9,7 +9,7 @@ play it and delete it"""
 def speak(temps):
     tts = gTTS(temps, lang="en")
     print('gTTS: ',temps)
-    tts.save("/temp/temp1.mp3")
-    playsound('/temp/temp1.mp3')
+    tts.save("./temp/temp1.mp3")
+    playsound('./temp/temp1.mp3')
     time.sleep(0.2)
-    os.remove("/temp/temp1.mp3")
+    os.remove("./temp/temp1.mp3")
