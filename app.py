@@ -1,7 +1,7 @@
 import tkinter as tk
 import sys
-from gttspython import *
-from pyttsx3func import *
+from gttspython import speak
+from pyttsx3func import sayMale, sayFemale1, sayFemale2, sayFemale3
 from pyttsx3.drivers import sapi5
 
 win= tk.Tk()
